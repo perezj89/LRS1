@@ -1,3 +1,3 @@
 # LRS1
-LRS1
-prueba
+LRS1 - Un robot social
+
