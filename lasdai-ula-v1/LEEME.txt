@@ -1,0 +1,18 @@
+ejemplos
+
+ejemplo1 : envía información hacia el robot
+ejemplo2 : recibe información del robot
+ejemplo3 : recibe información de otro computador y la envía al robot
+ejemplo4 : envía información hacia el robot desde otro pc
+ejemplo5 : presentación de LRS1
+ejemplo6 : Juego de operaciones matemáticas
+
+pendiente
+
+1) teleoperar el robot desde el mismo computador
+2) recibir información del robot desde otro computador
+3) estbalecer estructura de un proyecto
+4) incluir biblioteca de 64 bits
+5) cerrar la comuniciación del socket con desconectarRobot()
+6) pruebas en LaSDAI
+7) crear un pequeño manual de uso

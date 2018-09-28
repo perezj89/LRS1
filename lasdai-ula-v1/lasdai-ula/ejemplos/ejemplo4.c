@@ -1,0 +1,1 @@
+#include "../biblioteca/pr1-ula.h"int main(){  int id = conectarRobot("LRS1V");    while(enviarMensaje(id));    desconectarRobot(id);}
