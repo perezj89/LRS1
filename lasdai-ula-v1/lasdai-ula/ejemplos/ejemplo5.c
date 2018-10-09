@@ -4,7 +4,7 @@ void presentar(int);
 
 int main() {
   
-  int id = conectarRobot("LRS1V");
+  int id = conectarRobot(ROBOT);
   
   presentar(id);
 

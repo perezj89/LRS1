@@ -5,7 +5,7 @@ void intercambiar(int *, int *);
 
 int main(){
 	
-	int id = conectarRobot("LRS1V");
+	int id = conectarRobot(ROBOT);
 
 	int resultado = 0,		
 		expresion = 0,

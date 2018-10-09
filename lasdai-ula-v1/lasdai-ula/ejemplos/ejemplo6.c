@@ -2,7 +2,7 @@
 
 int main(){
 
-  int id = conectarRobot("LRS1V");
+  int id = conectarRobot(ROBOT);
   
   narrarRobot(id, vozSusurro, "Hola puedo susurrar");
   esperarMilisegundos(500);
