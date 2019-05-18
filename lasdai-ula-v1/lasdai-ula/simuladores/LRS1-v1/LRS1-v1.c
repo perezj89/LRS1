@@ -1,6 +1,7 @@
 #include "../../biblioteca/pr1-ula.h"
 #include <string.h>
 #include <stdlib.h>
+
 void dibujarRostro(int);
 void mostrarRostro(int);
 void* rostro(void *);
@@ -52,7 +53,7 @@ int expresiones[7][5][8]={{{0,0,0,0,0,0,0,0},
                            {0,0,0,0,0,0,0,0},
                            {0,0,0,0,0,0,0,0}}};
 
-int estado=1;
+int estado = 1;
 info infor;
 
 int main() {
@@ -216,17 +217,21 @@ void* rostro(void *arg){
 
 void* botones(void *arg){
   char boton;
+  
   do{  
     boton = leerTecla();
     if(boton == 49){
       ejecutar(direccion(comando," -1"));
       enviar(infor.t,1);
+
     }else if (boton == 50){
       ejecutar(direccion(comando," -2"));
       enviar(infor.t,2);
+
     }else if (boton == 51){
       ejecutar(direccion(comando," -3"));
       enviar(infor.t,3);
+
     }
   }while(boton != 48); //boton != 48, 1
 }

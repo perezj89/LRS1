@@ -52,7 +52,7 @@ void presentar(int id){
   enviarRobot(id, moverCentro);
   esperar(1);
 
-  hablarRobot(id, "tambien hacia arriba");
+  hablarRobot(id, "puedo moverlo hacia arriba");
   enviarRobot(id, moverArriba);
   esperar(3);
   enviarRobot(id, mover_cuelloCe);

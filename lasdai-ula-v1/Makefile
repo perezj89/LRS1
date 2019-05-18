@@ -1,10 +1,11 @@
 #LaSDAI
+
 biblioteca = 32bits
 dir = lasdai-ula/biblioteca/$(biblioteca)/pr1-ula.o lasdai-ula/ejemplos/
 dir2 = lasdai-ula/biblioteca/$(biblioteca)/
 robots = LRS1 LRS1-v1
 
-ejecutables= ejemplo1 ejemplo2 ejemplo3 ejemplo4 ejemplo5 ejemplo6 ejemplo7
+ejecutables = ejemplo1 ejemplo2 ejemplo3 ejemplo4 ejemplo5 ejemplo6 ejemplo7
 
 all: ejemplos simuladores
 

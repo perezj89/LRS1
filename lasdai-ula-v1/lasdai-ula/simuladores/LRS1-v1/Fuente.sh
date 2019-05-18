@@ -19,4 +19,5 @@ fi
 	sed -i "s#BackgroundMode=.*#BackgroundMode=TERMINAL_BACKGROUND_IMAGE#" ~/.config/xfce4/terminal/terminalrc
 	sed -i "s#BackgroundDarkness=.*#BackgroundDarkness=0,000000#" ~/.config/xfce4/terminal/terminalrc
 	sed -i "s#BackgroundImageStyle=.*#BackgroundImageStyle=TERMINAL_BACKGROUND_STYLE_STRETCHED#" ~/.config/xfce4/terminal/terminalrc
+	sed -i "s#MiscDefaultGeometry=.*#MiscDefaultGeometry=80x24#" ~/.config/xfce4/terminal/terminalrc
 	
